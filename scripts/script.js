@@ -1,3 +1,5 @@
+// "use strict"
+
 const eye = document.querySelector(".vision");
 const body = document.querySelector(".body");
 eye.addEventListener('click', () =>{
@@ -9,4 +11,5 @@ const btnFixedList = document.querySelector('.contact-fixed');
 
 btnFixed.addEventListener('click', () => {
     btnFixedList.classList.toggle('active');
-})
+});
+
