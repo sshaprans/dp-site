@@ -1,9 +1,7 @@
 .page-npa{
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
     gap: 85px;
-
 }
 .section-title-sup--up{
     margin-bottom: 50px;
@@ -45,13 +43,11 @@ summary:hover{
 details[open] summary {
     border-bottom-right-radius: unset;
     transition: all .5s ease-out;
-
 }
 
 details[open] > div {
     border-bottom-right-radius: 24px;
     transition: all .5s ease-out;
-
 }
 
 details[open] .icon svg {
@@ -83,8 +79,6 @@ details[open] .icon svg {
 .section-title-sup--npa{
     color: var(--green-text);
 }
-.main-container--npa{
 
-}
 
   

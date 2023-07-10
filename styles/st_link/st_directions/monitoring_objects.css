@@ -50,22 +50,25 @@
     font-weight: 900;
     text-transform: uppercase;
     padding: 15px 20px;
-    background-color: rgba(0, 0, 255, 0.66);
+    background-color: var(--green_light-color);
     border-radius: 12px;
 }
 /* new block*/
-
+.chain-map{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .chain-map_up{
     display: flex;
     gap: 40px;
     align-items: center;
-    font-size: 24px;
 }
 .chain-map_up--plate{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     background-color: rgba(75, 75, 75, 0.47);
