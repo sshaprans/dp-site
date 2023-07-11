@@ -1,77 +1,9 @@
-.section-title{
-    padding: 30px 200px;
-}
-.land_survey{
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-}
-.text{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.tab{
-    margin-left: 35px;
-}
-/*table*/
-.table{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.table_header{
-    font-weight: 900;
-}
-table {
-    font-size: 12px;
-    border-collapse: collapse;
-}
-table, th, td {
-    border: 1px solid black;
-    border-spacing: 1px 2px;
-    padding: 4px 5px;
-    text-align: center;
-    vertical-align: center;
-}
-.table_block{
-    width: calc(100% / 2 - 40px);
-}
-.table_title{
-    font-size: 18px;
-    font-weight: 900;
-    margin-bottom: 15px;
-}
-.num{
-    font-weight: 700;
-}
-/*table end*/
-/*list*/
-.text_lists{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-.text_list--side > ul{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-style: italic;
-
-}
-.text_list--side > ul > li{
-    list-style-type: square;
-    margin-left: 20px;
-}
-/*list end*/
-/*map*/
 .section-title-sup--up{
     margin-bottom: 50px;
 }
 .page-npa-block{
     width: 100%;
-    margin-bottom: 100px;
+    height: 100vh;
 }
 details {
     margin-bottom: 12px;
@@ -141,18 +73,5 @@ details[open] .icon svg {
     border-bottom: 4px solid var(--blue-color);
 }
 .section-title-sup--npa{
-    color: var(--grey-color);
-    font-size: 22px;
-}
-
-.map-land{
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-}
-
-.section-title-sup > span{
-    font-weight: 900;
-    color: black;
-    font-size: 22px;
+    color: var(--green-text);
 }

@@ -1,9 +1,10 @@
  @import url(./reset.css);
 :root{
     --blue-color: rgb(25, 90, 148);
-    --green-color: #3F7B63;
+    --green-color: rgba(0, 128, 0, 0.55);
     --green_light-color: rgba(200, 220, 212);
     --green-text: rgba(8, 76, 49);
+    --grey-color: #4B4B4B;
 }
 
 *{
@@ -15,13 +16,13 @@
     font-size: 20px;
 }
 .container{
-    max-width: 1280px;
+    max-width: 1480px;
     padding: 0 35px;
     margin: 0 auto;
 }
 .main-container{
     padding-bottom: 10px;
-    max-width: 1280px;
+    max-width: 1480px;
     margin: 0 auto;
     box-shadow: 0 12px 8px 5px rgba(0,0,0,.2);
     background-color: rgba(204, 204, 204, 0.3);
@@ -237,7 +238,6 @@ li:hover ul.nav-list {
 /*main*/
 #main{
     position: relative;
-
 }
 /*ticker*/
 .wrapper-ticker {
